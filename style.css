@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
 margin: 0;
 padding: 0;
+font-family: "Poppins";
+background-image: url(background.webp);
+background-size: contain;
 }
 
 h1{
@@ -10,15 +15,14 @@ margin-left: 20%;
 margin-top: 20px;
 height: 100px;
 font-size: 400%;
-color:#0c03ae;
-background-color: rgb(44, 3, 3);
+background-color: #68007f;
 width: 60%;
 padding-top: 10px;
 border-radius: 30px;
 color: antiquewhite;
 background-size: contain;
-border: 5px solid  rgb(44, 3, 3);
-text-shadow:3px 3px 1px #FF0000;
+border: 5px solid  rgb(90, 0, 95);
+text-shadow:5px 5px 5px #000000;
 }
 .choice{
     height: 165px;
@@ -38,8 +42,9 @@ text-shadow:3px 3px 1px #FF0000;
 
 img:hover{ 
     cursor: pointer;
-    border: 6px solid black;
+    border: 10px solid #68007f;
     border-radius: 50%;
+    size:1.5;
 
 }
 
@@ -75,7 +80,7 @@ body{
     font-weight:bold;
     font-size: 150%;
     padding-left: 30px;
-    color: #e8130b;
+    color: #F1C40F;
     text-shadow:3px 3px 1px #040842; 
   
 }
@@ -84,12 +89,15 @@ body{
 }
 .msg{
     display: inline-block;
-    background-color:rgb(44, 3, 3);
+    background-color: #68007f;
     border-radius: 10px;
     color: antiquewhite;
     width: 30%;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-shadow:2px 2px 1px #FF0000; 
-
+    border: 5px solid black;
 }
+
+
+
+
