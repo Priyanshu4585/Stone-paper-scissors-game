@@ -17,20 +17,20 @@ const options =["rock","paper","scissor"]
 const drawGame = ()=>
 { 
  msg.innerText= "game draw"
- msg.style.backgroundColor = "rgb(44, 3, 3)"
+ msg.style.backgroundColor = "#2C3E50"
 }
 
 const showWinner = (userWin,userChoice,compChoice)=>
 {   if(userWin){
     userScor ++
     msg.innerText = `you win your ${userChoice} beats ${compChoice}`
-    msg.style.backgroundColor = "green"
+    msg.style.backgroundColor = "#4CAF50"
     userScr.innerText = userScor
    
 }else{
     compScor ++
     msg.innerText = `you lose ${compChoice} beats your ${userChoice}`
-    msg.style.backgroundColor = "red"
+    msg.style.backgroundColor = "#FF5733"
     compScr.innerText = compScor
    
 }         
